@@ -1,0 +1,176 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.view-more-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.container{
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f5f5f5;
+  box-shadow: 0 30px 50px #dbdbdb;
+  overflow-x: scroll;
+  
+}
+.post-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-image {
+  width: 50%; /* Hiển thị 2 hình ảnh trên mỗi dòng */
+}
+
+.single-image {
+  width: 100%; /* Hiển thị một hình ảnh nếu chỉ có một hình */
+}
+#options label {
+display: -webkit-inline-box;
+margin: 10px;
+}
+#options {
+margin-top: 20px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-details {
+  flex: 1; /* Cho phần user-details mở rộng để chiếm hết không gian còn lại */
+}
+#category{
+  margin-right: 10px;
+  color: #fe9205;
+
+}
+.user-name, .post-date {
+  margin: 5px; /* Xóa các khoảng trắng xung quanh văn bản */
+  }
+  .user-name{
+  font-size: 20px;
+  color: #000000; /* Màu chữ */
+  text-decoration: none; /* Loại bỏ gạch chân */
+  font-weight: bold; /* Độ đậm */
+  font-weight: 500;
+  }
+  a.user-name {
+    text-decoration: none; /* Loại bỏ chữ gạch chân mặc định */
+  }
+  a.user-name:hover {
+    color: #f41b1b;
+    text-decoration: underline; /* Thêm chữ gạch chân khi hover */
+  }
+.user-avatar {
+  width: 50px; /* Điều chỉnh kích thước hình ảnh đại diện theo nhu cầu */
+  height: 50px;
+  margin-right: 10px; /* Tạo khoảng cách giữa hình ảnh đại diện và các phần tử văn bản */
+  border-radius: 50%;
+  }
+
+  .post-actions button {
+    margin-left: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #ccc; 
+
+  }
+  
+  .post-actions button:hover {
+    background-color: #fe9205; /* Màu hover */
+    border-color: #fe9205; /* Màu đường viền khi hover */
+  }
+.card{
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #f1f1f1;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+#filter{
+  height: 20px;
+  width: 20px;
+}
+
+
+#avatar-comment {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.comment-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc; 
+
+}
+.fixed-modal-body {
+  max-height: 500px;
+  overflow-y: auto;
+}
+.actions {
+  display: flex;
+  align-items: center; /* Căn các phần tử con theo trục dọc */
+}
+
+.actions button {
+  margin-right: 10px; /* Khoảng cách giữa các nút */
+  background-color: white;
+  border: none; /* Xóa viền của button */
+  width: 100px;
+
+}
+.card-comment a{
+  color: black;
+}
+.actions button:hover {
+  background-color: #fe9205;
+}
+
+.comment-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  width: 100%; 
+  margin-bottom: 5px;
+}
+
+#comment-input {
+  width: calc(100% - 80px);
+  margin-right: 5px;
+}
+.comment-input-container button {
+  background-color: rgb(17, 119, 41);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 3px;
+}
+.comment-input-container button:hover {
+  background-color: #fe9205;
+
+}

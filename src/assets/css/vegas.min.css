@@ -1,0 +1,117 @@
+/*# sourceMappingURL=vegas.min.css.map */
+/*  */
+
+.hero-slides .item:nth-child(1),
+.hero-slides .item:nth-child(2){
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-slides .item:nth-child(3){
+    left: 50%;
+}
+.hero-slides .item:nth-child(4){
+    left: calc(50% + 220px);
+}
+.hero-slides .item:nth-child(5){
+    left: calc(50% + 440px);
+}
+
+/* here n = 0, 1, 2, 3,... */
+.hero-slides .item:nth-child(n + 6){
+    left: calc(50% + 660px);
+    opacity: 0;
+}
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    z-index: 999;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+}
+.sub-menu-link img{
+    width: 40px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+}
+.sub-menu-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+}
+.sub-menu-link:hover span{
+    transform: translate(5px);
+}
+.sub-menu-link:hover p{
+    font-weight: 600;
+}
+.post-actions button {
+    margin-left: 5px; 
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+}
+ .user-name :hover{
+    color: #d38825;
+ } 
+.post-actions button:hover {
+    background-color: #fe9205; /* Màu hover */
+    border-color: #fe9205; /* Màu đường viền khi hover */
+}
+.actions {
+  display: flex;
+  align-items: center; /* Căn các phần tử con theo trục dọc */
+}
+
+.actions button {
+  margin-right: 10px; /* Khoảng cách giữa các nút */
+  background-color: white;
+  border: none; /* Xóa viền của button */
+  width: 100px;
+
+}
+.actions button:hover {
+  background-color: #fe9205;
+}
