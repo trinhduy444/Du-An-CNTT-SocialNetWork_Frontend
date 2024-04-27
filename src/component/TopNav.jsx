@@ -78,7 +78,7 @@ export const TopNav = () => {
     };
     
       return (
-        <nav className="navbar navbar-expand-lg">                
+        <nav className="navbar navbar-expand-lg" style={{position: 'fixed', transform: `translateX(380px)`}}>                
             <div className="container">
                 <a className="navbar-brand d-flex align-items-center" href="/">
                     <img src={logo} className="navbar-brand-image img-fluid" alt="Barista Cafe Template"/>

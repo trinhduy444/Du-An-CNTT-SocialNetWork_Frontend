@@ -57,22 +57,22 @@ export const Home = () => {
         </div>
 
         <div className="hero-slides">
-        <div className="item" style={{backgroundImage: "url(https://www.wineport.ie/wp-content/uploads/2023/12/Wineport-new-web-pics-1920-x-1020-2.jpg)"}}>
+        <div className="item" style={{backgroundImage: "url(https://www.wineport.ie/wp-content/uploads/2023/12/Wineport-new-web-pics-1920-x-1020-2.jpg)",backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
                
             </div>
-            <div className="item" style={{backgroundImage: "url(https://befoodnv.be/static/uploads-cms2/home-banner-befood-1800-def.jpg)"}}>
+            <div className="item" style={{backgroundImage: "url(https://befoodnv.be/static/uploads-cms2/home-banner-befood-1800-def.jpg)",backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
                
             </div>
-            <div className="item" style={{backgroundImage: "url(https://www.cato.org/sites/cato.org/files/styles/optimized/public/2023-11/fast-fashion2.jpeg?itok=qCMa7eGV)"}}>
+            <div className="item" style={{backgroundImage: "url(https://www.cato.org/sites/cato.org/files/styles/optimized/public/2023-11/fast-fashion2.jpeg?itok=qCMa7eGV)",backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
        
             </div>
-            <div className="item" style={{backgroundImage: "url(https://wpvip.edutopia.org/wp-content/uploads/2022/10/wolgawron-169hero-service-istock.jpg?w=2880&quality=85)"}}>
+            <div className="item" style={{backgroundImage: "url(https://wpvip.edutopia.org/wp-content/uploads/2022/10/wolgawron-169hero-service-istock.jpg?w=2880&quality=85)",backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
   
             </div>
-            <div className="item" style={{backgroundImage: "url(https://i.ibb.co/jTQfmTq/img5.jpg)"}}>
+            <div className="item" style={{backgroundImage: "url(https://i.ibb.co/jTQfmTq/img5.jpg)", backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
       
             </div>
-            <div className="item" style= {{backgroundImage: "url(https://i.ibb.co/RNkk6L0/img6.jpg)"}}>
+            <div className="item" style= {{backgroundImage: "url(https://i.ibb.co/RNkk6L0/img6.jpg)",backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
             </div>
         </div>
     </section>
